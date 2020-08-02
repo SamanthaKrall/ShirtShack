@@ -1,0 +1,186 @@
+body, html {
+	height:100%;
+	margin:0;
+	font-size:20px;
+	font-family: "Roboto Condensed", Arial, sans-serif;
+	font-weight:400;
+	line-height:1.8em;
+	color:#283334;
+}
+
+.picture_one, .picture_two {
+	position:relative;
+	background-position: top center;
+	background-size: 75%;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	overflow: hidden;
+	color:blue;
+}
+
+.picture_one {
+	background-image: url(Pictures/ShirtShackLogo.jpg);
+	min-height:50%;
+}
+
+.picture_two {
+	background-image: url(Pictures/BlackLivesMatterFist.jpg);
+}
+
+.section {
+	text-align: center;
+	padding: 25px 80px;
+	background-color:#283334;
+	color:#ffffff;
+}
+
+.sectionLight {
+	text-align: center;
+	padding: 25px 80px;
+	background-color:#f2f2f2;
+	color:#283334;
+}
+.htext {
+	position:absolute;
+	top:10%;
+	width:100%;
+	text-align:center;
+	color:#ffffff;
+	font-size:50px;
+}
+.ptext {
+	position:absolute;
+	top:50%;
+	width:100%;
+	text-align:center;
+	color:#ffffff;
+	font-size:27px;
+	letter-spacing:8px;
+}
+.ttext {
+	text-align: center;
+	color:#ffffff;
+}
+.input {
+	margin:auto;
+	display: inline-block;
+	text-align:center;
+}
+.column {
+    float: left;
+    width: 49.7%;
+}
+.tricolumn {
+    float: left;
+    width: 33.33%;
+}
+.quadcolumn {
+    float: left;
+    width: 25%;
+}
+.quintcolumn {
+    float: left;
+    width: 20%;
+}
+.row:after {
+	content: "";
+    display: table;
+    clear: both;
+}
+.lightLink a {
+	border-radius: 4px;
+	background-color: #283334;
+	border: none;
+	color: #f2f2f2;
+	text-align: center;
+	font-size: 20px;
+	padding: 5px;
+	transition: all 0.25s;
+	transition-timing-function: ease-out;
+	cursor: pointer;
+	margin: 5px;
+	text-decoration:underline;
+}
+.lightLink a:hover {
+	background-color: #f2f2f2;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #283334;
+	text-decoration:none;
+}
+.darkLink a {
+	color:#283334;
+	padding: 16px;
+	border-radius: 4px;
+	border:none;
+	transition:0.25s;
+	text-decoration:underline;
+	text-align: center;
+	font-size: 20px;
+	padding: 5px;
+	transition: all 0.25s;
+	transition-timing-function: ease-out;
+	cursor: pointer;
+	margin: 5px;
+}
+.darkLink a:hover {
+	background-color: #283334;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #f2f2f2;
+	text-decoration:none;
+}
+.button {
+	border-radius: 4px;
+	background-color: #283334;
+	border: none;
+	color: #f2f2f2;
+	text-align: center;
+	font-size: 20px;
+	padding: 5px;
+	transition: all 0.25s;
+	transition-timing-function: ease-out;
+	cursor: pointer;
+	margin: 5px;
+	text-decoration:none;
+	font-weight: bold;
+}
+.button:hover {
+	background-color: #f2f2f2;
+	padding-left:20px;
+	padding-right:20px;
+	color: #283334;
+}
+.buttonLight {
+	border-radius: 4px;
+	background-color: #f2f2f2;
+	border: none;
+	color: #283334;
+	text-align: center;
+	font-size: 20px;
+	padding: 5px;
+	transition: all 0.25s;
+	transition-timing-function: ease-out;
+	cursor: pointer;
+	margin: 5px;
+	text-decoration:none;
+	font-weight: bold;
+}
+.buttonLight:hover {
+	background-color: #283334;
+	padding-left:20px;
+	padding-right:20px;
+	color: #f2f2f2;
+}
+.framing {
+	border: none;
+	background-color:#f2f2f2f2;
+}
+@media(max-width:568px) {
+	.picture_one, .picture_two {
+		background-attachment:scroll;
+	}
+	.column, .tricolumn, .quadcolumn {
+        width: 100%;
+    }
+}
