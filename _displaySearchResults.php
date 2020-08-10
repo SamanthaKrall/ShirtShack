@@ -6,9 +6,8 @@
         <title>Product Results</title>
 	</head>
 	<body>
-		<table class="ttext" style="width:100%">
-    			
-                <tr>		
+		<table class="ttext" style="width:25%">
+    		
         		<?php 
                     for($x = 0; $x < count($products); $x++){
                         echo "<td>" . $products[$x]['product_name'] . "</td>";
@@ -27,8 +26,8 @@
                         <button type = "submit" class="button">Add to Cart</button>
                     </form>
                     </td>
-                </tr>
                 <?php } ?>
+                  
         </table>
 	</body>
 </html>

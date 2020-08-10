@@ -18,6 +18,7 @@ require_once 'db_connector.php';
 		</div>
 		<section class="sectionLight"> 
 			<form method="post">
+				<button type="submit" class="buttonLight" formaction="userHome.php">Shirt Shack</button>
 				<button type="submit" class="buttonLight" name='SP'>Search Products</button>
 				<?php if($_SESSION['Role'] == "admin"){	?>
 					<button type="submit" class="buttonLight" name='SAP'>Admin Page</button>

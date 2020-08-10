@@ -28,14 +28,8 @@ $connection = $db->getConnection();
 				?>
 				<div class="sixtcolumn">
 					<?php echo $product_array[$x]['product_name'];?>
-				</div>
-				<div class="sixtcolumn">
 					<?php echo $product_array[$x]['product_description'];?>
-				</div>
-				<div class="sixtcolumn">
 					<?php echo "$" . $product_array[$x]['product_price'];?>
-				</div>
-				<div class="sixtcolumn">
 					<?php echo "<img src='Pictures/" . $product_array[$x]['product_picture'] . ".jpg' height='400' width='400' align='right'>";?>
 				</div>
                     <form action="productPage.php" method = "POST">

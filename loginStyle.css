@@ -5,7 +5,7 @@ body, html {
 	font-family: "Roboto Condensed", Arial, sans-serif;
 	font-weight:400;
 	line-height:1.8em;
-	color:#283334;
+	/*color:#283334;*/
 }
 
 .picture_one, .picture_two {
@@ -15,7 +15,7 @@ body, html {
 	background-repeat:no-repeat;
 	background-attachment: fixed;
 	overflow: hidden;
-	color:blue;
+	color:#283334;
 }
 
 .picture_one {
@@ -25,6 +25,7 @@ body, html {
 
 .picture_two {
 	background-image: url(Pictures/BlackLivesMatterFist.jpg);
+	min-height:50%;
 }
 
 .section {
@@ -174,7 +175,7 @@ body, html {
 }
 .framing {
 	border: none;
-	background-color:#f2f2f2f2;
+	/*background-color:#f2f2f2f2;*/
 }
 @media(max-width:568px) {
 	.picture_one, .picture_two {
